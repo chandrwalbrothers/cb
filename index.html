@@ -6,9 +6,9 @@
   <title>Chandrwal Brothers | One Stop Solution for all your Designing Needs</title>
   <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+  <!-- CSS stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
   <!-- Google Font -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,47 +21,63 @@
 </head>
 
 <body>
-
   <!-- Navigation bar -->
-  <section id="navBar">
-    <nav>
-      <div class="">
-        <a href="#">Chandrwal Brothers</a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">
+        <img src="images/logo2.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://chandrwalbrothers.github.io/cb/">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
       </div>
-
-      <ul class="nav-bar">
-        <li class="nav-element"><a href="#home">Home</a></li>
-        <li class="nav-element"><a href="#about">About</a></li>
-        <li class="nav-element"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </section>
-
-  <!-- title -->
-  <div class="title">
-    <h1 class="title-heading">One Stop Solution for All of Your Designing Needs.!</h1>
+  </nav>
   </div>
 
+  <!-- title -->
+  <section>
+    <div class="title">
+      <h1 class="title-heading">One Stop Solution for All of Your Designing Needs.!</h1>
+      <div class="">
+        <br>
+      </div>
+      <div class="">
+        <button style="background-color: rgba(0,0,0,.55);" type="button" class="btn btn-dark btn-lg">Learn more</button>
+      </div>
+    </div>
+  </section>
 
 
   <!-- Our Services -->
-  <section class="our-services">
+
+
+  <section class="">
+
     <div class="services-text">
       <h1>Our Services</h1>
     </div>
 
     <div class="row">
-
-      <div class="col-lg-4 service-card">
-        <div class="card">
-          <div class="card-header">
-            <h3>Panel and PCB Design</h3>
-          </div>
-          <div class="card-body">
-            <div class="img-container">
-              <img class="service-img" src="images/pcb-design.jpg" alt="panel-pcb-design">
+      <div class="col-lg-4">
+        <div class="service-container">
+          <div class="dropdown">
+            <div class="service-img">
+              <img src="images/pcb-design.jpg" height="150px" width="150px" alt="">
             </div>
-            <div class="service-container">
+            <div class="drop-div">Panel and PCB Design</div>
+            <div class="dropdown-content">
               <ul style="list-style-type: none;">
                 <li><i class="fas fa-check-circle"></i>New Panel Design</li>
                 <li><i class="fas fa-check-circle"></i>Single Side PCB Design</li>
@@ -75,16 +91,15 @@
         </div>
       </div>
 
-      <div class="col-lg-4  service-card">
-        <div class="card">
-          <div class="card-header">
-            <h3>Catalogue/Flyer Design</h3>
-          </div>
-          <div class="card-body">
-            <div class="img-container">
-              <img class="service-img" src="images/flyer-design.jpg" alt="catalogue-brochure-design">
+
+      <div class="col-lg-4">
+        <div class="service-container">
+          <div class="dropdown">
+            <div class="service-img">
+              <img src="images/flyer-design.jpg" height="150px" width="150px" alt="">
             </div>
-            <div class="service-container">
+            <div class="drop-div">Catalogue/Flyer Design</div>
+            <div class="dropdown-content">
               <ul style="list-style-type: none;">
                 <li><i class="fas fa-check-circle"></i>Catalogue Design</li>
                 <li><i class="fas fa-check-circle"></i>Brochure Design</li>
@@ -93,120 +108,118 @@
                 <li><i class="fas fa-check-circle"></i>Product Catalogue Design</li>
               </ul>
             </div>
-
           </div>
         </div>
       </div>
 
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>Company Logo Design</h3>
-          </div>
-          <div class="card-body">
-            <div class="img-container">
-              <img class="service-img" src="images/logo-design.jpg" alt="logo-design">
-            </div>
-            <div class="service-container">
-              <ul style="list-style-type: none;">
-                <li><i class="fas fa-check-circle"></i>Popular Logo Design</li>
-                <li><i class="fas fa-check-circle"></i>Attractive Logo Design</li>
-                <li><i class="fas fa-check-circle"></i>Unique Design</li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </div>
 
       <div class="col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>Video Editing</h3>
-          </div>
-          <div class="card-body">
-            <div class="img-container">
-              <img class="service-img" src="images/video-editing.jpg" alt="video-editing-img">
+        <div class="service-container">
+          <div class="dropdown">
+            <div class="service-img">
+              <img src="images/logo-making.jpg" height="150px" width="150px" alt="">
             </div>
-            <div class="service-container">
+            <div class="drop-div">Company Logo Design</div>
+            <div class="dropdown-content">
               <ul style="list-style-type: none;">
-                <li><i class="fas fa-check-circle"></i>Video Mixing</li>
-                <li><i class="fas fa-check-circle"></i>Video Shoot</li>
-                <li><i class="fas fa-check-circle"></i>Editing of all types of product videos</li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>Photo Editing</h3>
-          </div>
-          <div class="card-body">
-            <div class="img-container">
-              <img class="service-img" src="images/photo-editing.jpg" alt="phot-editing-img">
-            </div>
-            <div class="service-container">
-              <ul style="list-style-type: none;">
-                <li><i class="fas fa-check-circle"></i>Photos of all Sizes and Format</li>
-                <li><i class="fas fa-check-circle"></i>Photoshoot</li>
-                <li><i class="fas fa-check-circle"></i>Photoshop</li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>Social Media Marketing</h3>
-          </div>
-          <div class="card-body">
-            <div class="img-container">
-              <img class="service-img" src="images/social-media.jpg" alt="social-media-img">
-            </div>
-            <div class="service-container">
-              <ul style="list-style-type: none;">
-                <li><i class="fas fa-check-circle"></i>Alibaba</li>
-                <li><i class="fas fa-check-circle"></i>Amazon</li>
-                <li><i class="fas fa-check-circle"></i>Indiamart</li>
-                <li><i class="fas fa-check-circle"></i>Soical Media Applications</li>
-              </ul>
+                <ul style="list-style-type: none;">
+                  <li><i class="fas fa-check-circle"></i>Popular Logo Design</li>
+                  <li><i class="fas fa-check-circle"></i>Attractive Logo Design</li>
+                  <li><i class="fas fa-check-circle"></i>Unique Design</li>
+                </ul>
             </div>
           </div>
         </div>
       </div>
 
       <div class="col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>Presentation</h3>
-          </div>
-          <div class="card-body">
-            <div class="img-container">
-              <img class="service-img" src="images/presentation.jpg" alt="presentation-img">
+        <div class="service-container">
+          <div class="dropdown">
+            <div class="service-img">
+              <img src="images/video-editing.jpg" height="150px" width="150px" alt="">
             </div>
-            <div class="service-container">
+            <div class="drop-div">Video Editing</div>
+            <div class="dropdown-content">
               <ul style="list-style-type: none;">
-                <li><i class="fas fa-check-circle"></i>Animation</li>
-                <li><i class="fas fa-check-circle"></i>Multimedia</li>
-                <li><i class="fas fa-check-circle"></i>High Quality Presentation</li>
-              </ul>
+                <ul style="list-style-type: none;">
+                  <li><i class="fas fa-check-circle"></i>Video Mixing</li>
+                  <li><i class="fas fa-check-circle"></i>Video Shoot</li>
+                  <li><i class="fas fa-check-circle"></i>Editing of all types of product videos</li>
+                </ul>
             </div>
-
           </div>
         </div>
       </div>
+
+      <div class="col-lg-4">
+        <div class="service-container">
+          <div class="dropdown">
+            <div class="service-img">
+              <img src="images/photo-editing.png" height="150px" width="150px" alt="">
+            </div>
+            <div class="drop-div">Photo Editing</div>
+            <div class="dropdown-content">
+              <ul style="list-style-type: none;">
+                <ul style="list-style-type: none;">
+                  <li><i class="fas fa-check-circle"></i>Photos of all Sizes and Format</li>
+                  <li><i class="fas fa-check-circle"></i>Photoshoot</li>
+                  <li><i class="fas fa-check-circle"></i>Photoshop</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-container">
+          <div class="dropdown">
+            <div class="service-img">
+              <img src="images/social-media.jpg" height="150px" width="150px" alt="">
+            </div>
+            <div class="drop-div">Social Media Marketing</div>
+            <div class="dropdown-content">
+              <ul style="list-style-type: none;">
+                <ul style="list-style-type: none;">
+                  <li><i class="fas fa-check-circle"></i>Alibaba</li>
+                  <li><i class="fas fa-check-circle"></i>Amazon</li>
+                  <li><i class="fas fa-check-circle"></i>Indiamart</li>
+                  <li><i class="fas fa-check-circle"></i>Soical Media Applications</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+      </div>
+
+      <div class="col-lg-4">
+        <div class="service-container">
+          <div class="dropdown">
+            <div class="service-img">
+              <img src="images/presentation.jpg" height="150px" width="150px" alt="">
+            </div>
+            <div class="drop-div">Presentation</div>
+            <div class="dropdown-content">
+              <ul style="list-style-type: none;">
+                <ul style="list-style-type: none;">
+                  <li><i class="fas fa-check-circle"></i>Animation</li>
+                  <li><i class="fas fa-check-circle"></i>Multimedia</li>
+                  <li><i class="fas fa-check-circle"></i>High Quality Presentation</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+      </div>
+
     </div>
   </section>
 
   <!-- Specialities -->
-  <!-- <section class="specialities"> -->
+
   <div class="specialities">
 
     <div class="speciality-header ">
@@ -227,7 +240,6 @@
             <li><i class="icon fas fa-bullseye"></i> Pagemaker</li>
             <li><i class="icon fas fa-bullseye"></i> Video Editing</li>
             <li><i class="icon fas fa-bullseye"></i> Google Suffering</li>
-
           </ul>
         </div>
         <div class="col-lg-4">
@@ -237,20 +249,14 @@
     </div>
 
   </div>
-  <!-- </section> -->
 
 
-  <!-- Contact Section -->
-  <!-- Contact -->
-
-  <section class="white-section" id="features">
-
+<!-- features -->
+  <section class="" id="features">
     <div class="container-fluid">
-
-
       <div class="row">
         <div class="feature-box col-lg-4">
-          <i class="feature-icon fas fa-heart fa-3x"></i>
+          <i class="feature-icon fas fa-check-circle fa-3x"></i>
           <h3 class="feature-title">Accurate Design</h3>
           <p class="feature-para">Design that reflects your vision.</p>
         </div>
@@ -260,19 +266,19 @@
           <p class="feature-para">Dedicated team for faster services.</p>
         </div>
         <div class="feature-box col-lg-4">
-          <i class="feature-icon fas fa-check-circle fa-3x"></i>
+          <i class="feature-icon fas fa-heart fa-3x"></i>
           <h3 class="feature-titlet">Guaranteed work</h3>
           <p class="feature-para">Error free work without delay.</p>
         </div>
       </div>
-
     </div>
   </section>
+
+
 
   <!-- Footer -->
   <section class="footer-section">
     <footer class="">
-      <br>
       <br>
       <div class="upArrow">
         <a href="#navBar"><i class=" fa fa-angle-up fa-2x"></i></a>
@@ -282,8 +288,6 @@
         <i class="fab fa-twitter fa-2x"></i>
         <i class="fas fa-envelope fa-2x"></i>
       </div>
-
-
 
       <div class="footer-div row">
         <div class="col-lg-4">
@@ -302,7 +306,7 @@
           </div>
           <div class="">
             <p>Maroti Colony, Sanganer Jaipur</p>
-            <p>Rasthan, India</p>
+            <p>Rajasthan, India</p>
             <p>mail: chandrawalbrothers@gmail.</p>
             <p> Whatsapp: 9079922678</p>
           </div>
@@ -310,7 +314,7 @@
       </div>
 
   </section>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
