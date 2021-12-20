@@ -40,6 +40,12 @@ body {
   font-size: 3.5rem;
 }
 
+
+.carousel-image {
+  max-height: 500px;
+  width: 100%;
+}
+
 .service-img {
 text-align: center;
 }
