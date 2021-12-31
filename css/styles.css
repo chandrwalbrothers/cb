@@ -11,18 +11,17 @@ body {
   display: flex;
 }
 
-.hero-text{
-  margin-top: 25px;
-  text-align: left;
-  width: auto;
+.mainHeading {
+  font-family: "Clarendon Blk BT", Georgia;
+  color: #f00;
+  font-size: 4.5rem;
+  font-weight: bold;
 }
-.title {
-  /* background-color: #1793B7; */
-  color: red;
-  height: 300px;
-  padding-top: 20px;
-  padding-left: 20px;
-  font-family: 'Montserrat', sans-serif;
+
+.subHeading {
+  font-family: "Lucida Handwriting";
+  color: #000;
+  text-align: center;
 }
 
 .carousel-item {
@@ -33,11 +32,6 @@ body {
 .navbar {
   /* font-size: 12px; */
   letter-spacing: 4px;
-}
-
-
-.title-heading {
-  font-size: 3.5rem;
 }
 
 
